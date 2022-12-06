@@ -3,25 +3,17 @@
 #- [2, 3, 5, 9, 3] -> на нечётных позициях элементы 3 и 9, ответ: 12
 
 
+data = [x for x in range(1,5)]
+counter = 0
+result = 0
+print(data)
 
+while counter < len(data):
+    if counter % 2:
+        result += data[counter]
+    counter += 1
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+print(f'Сумма чисел на нечетных инедексах: {result}')
 
 
 
