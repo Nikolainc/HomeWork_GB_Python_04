@@ -21,7 +21,7 @@
 #И считаем средне-арифметическое каждой строки (не пользуемся встроенными методами подсчета суммы)
 
 
-#from random import randint
+from random import randint
 
 
 #Y , X = int(input("Введите количество строк Y: ")), int(input("Введите количество столбцов: "))
@@ -44,3 +44,14 @@
 
 #3) Сгенерируйте список на 30 элементов. Отсортируйте список по возрастанию, методом сортировки выбором.
 
+#newArray = [randint(-99,100) for i in range(30)]
+#print(newArray)
+
+#for i in range(0, len(newArray)):
+#    IndexOfSmalletItem = i
+#    for j in range(i + 1, len(newArray)):
+#        if newArray[j] < newArray[IndexOfSmalletItem]:
+#            IndexOfSmalletItem = j
+#    newArray[i], newArray[IndexOfSmalletItem] = newArray[IndexOfSmalletItem], newArray[i]
+
+#print(newArray)
